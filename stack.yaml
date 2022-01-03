@@ -1,0 +1,7 @@
+---
+packages:
+- .
+
+require-stack-version: "== 2.7.3"
+resolver:
+  url: https://raw.githubusercontent.com/commercialhaskell/stackage-snapshots/master/lts/18/21.yaml

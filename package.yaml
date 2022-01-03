@@ -1,0 +1,42 @@
+---
+name:                sockets-and-pipes
+version:             0.1.0.0
+github:              "likwid/sockets-and-pipes"
+license:             BSD3
+author:              "Jeff Gonzalez"
+maintainer:          "likwid at gmail"
+copyright:           "2021 Jeff Gonzalez"
+
+extra-source-files:
+    - README.md
+    - stack.yaml
+    - package.yaml
+
+description: |
+  Please see the README on GitHub at <https://github.com/likwid/sockets-and-pipes#readme>
+
+dependencies:
+- base >= 4.7 && < 5
+
+  #data-files:
+  #- data/*.*
+  #- data/texts/*.*
+
+#executables:
+
+ghc-options:
+- -Wall
+- -Werror
+- -Wcompat
+- -Widentities
+- -Wincomplete-uni-patterns
+- -Wincomplete-record-updates
+- -Wno-unused-top-binds
+- -Wno-orphans
+
+# tests:
+
+library:
+  source-dirs: empty
+  exposed-modules: Empty
+  other-modules: []
